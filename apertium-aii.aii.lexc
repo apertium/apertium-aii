@@ -53,9 +53,9 @@ LEXICON NounRoot
 
 LEXICON Verb
 
-ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
+! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
 
-ܦܬܚ%<vblex%>%<pres%>%<p3%>%<f%>%<sg%>:ܦܵܬܚܵܐ # ;
+! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<f%>%<sg%>:ܦܵܬܚܵܐ # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon

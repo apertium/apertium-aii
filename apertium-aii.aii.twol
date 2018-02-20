@@ -1,13 +1,16 @@
 Alphabet
 
 ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ
-ܸ ܲ ܵ ܸ ܹ ܼ ;
+ܸ ܲ ܵ ܸ ܹ ܼ
+◌:0
+
+;
 
 Sets
 
 
 
-Rules 
+Rules
 
 "Remove suffix vowel with vowel-ending stem"
 i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
@@ -18,4 +21,3 @@ i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 ! https://github.com/hfst/
 ! http://wiki.apertium.org/wiki/Twol
 ! http://wiki.apertium.org/wiki/Hfst
-
