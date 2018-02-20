@@ -54,6 +54,10 @@ LEXICON PresentVerbInfl-Suffix
 %<p1%>%<m%>%<sg%>:ܚܵܢ # ;
 %<p1%>%<pl%>:ܚܵܚ # ;
 
+LEXICON PastVerbInfl
+
+%<vblex%>%<past%>: PastVerbInfl-Suffix ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -71,7 +75,8 @@ LEXICON NounRoot
 
 LEXICON VerbRoot
 
-ܦܵܬ:ܦܵܬ PresentVerbInfl ; ! pat- "open (present template)"
+ܦܵܬ:ܦܵܬ PresentVerbInfl ; ! pat- "to open (present template)"
+ܦܬܹܚ:ܦܬܹܚ PastVerbInfl ; ! ptəx- "to open (past template)"
 
 ! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
 
