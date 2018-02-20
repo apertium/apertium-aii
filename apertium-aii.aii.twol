@@ -3,6 +3,9 @@ Alphabet
  a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
  %{A%}:a %>:0  ;
 
+ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ
+ܸ ܲ ܵ ܸ ܹ ܼ 
+
 Sets
 
 Vowel = A E Ä I O Ö U Ü Y Ý 
