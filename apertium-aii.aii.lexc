@@ -25,6 +25,8 @@ Multichar_Symbols
 LEXICON Root
 
 NounRoot ;
+VerbRoot ;
+
 
 LEXICON RegNounInfl
 
@@ -35,6 +37,22 @@ LEXICON NounInfl-Number
 %<sg%>:◌ܵܐ # ;
 
 %<pl%>:◌ܹܐ # ;
+
+LEXICON PresentVerbInfl
+
+%<vblex%>%<pres%>: PresentVerbInfl-Suffix ;
+
+LEXICON PresentVerbInfl-Suffix
+
+%<p3%>%<m%>%<sg%>:◌ܹܚ # ;
+%<p3%>%<f%>%<sg%>:ܚܵ # ;
+%<p3%>%<pl%>:ܚܝܼ # ;
+%<p2%>%<m%>%<sg%>:ܚܹܬ # ;
+%<p2%>%<f%>%<sg%>:ܚܵ # ;
+%<p2%>%<pl%>:ܚܝܼܬܘܼܢ # ;
+%<p1%>%<m%>%<sg%>:ܚܹܢ # ;
+%<p1%>%<m%>%<sg%>:ܚܵܢ # ;
+%<p1%>%<pl%>:ܚܵܚ # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -51,7 +69,9 @@ LEXICON NounRoot
 ܬܘܼܝܬ:ܬܘܼܝܬ RegNounInfl ; ! tuyt- "mulberry"
 ܬܸܢ:ܬܸܢ RegNounInfl ; ! ten- "fig"
 
-LEXICON Verb
+LEXICON VerbRoot
+
+ܦܵܬ:ܦܵܬ PresentVerbInfl ; ! pat- "open (present template)"
 
 ! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
 
