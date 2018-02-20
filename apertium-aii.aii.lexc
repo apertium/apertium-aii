@@ -4,6 +4,11 @@ Multichar_Symbols
 
 ! Part of speech categories
 %<n%>   ! Noun
+%<vblex%>   ! Verb (lexical)
+%<adj%>   ! Adjective
+%<prn%>   ! Pronoun
+%<adv%>   ! Adverb
+%<pr%>   ! Preposition
 
 ! Number morphology
 %<pl%>  ! Plural
