@@ -1,0 +1,173 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../aii.autogen.hfst
+    Morph: ../aii.automorf.hfst
+Tests:
+  Adjectives:
+    ܚܬ<adj><pl>:
+    - ܚܵܬܹܐ
+    ܫܚܢ<adj><m><sg>:
+    - ܫܚܝܼܢܵܐ
+  Adverbs:
+    ܼܢܨܵܐ<adv>:
+    - ܼܢܨܵܐ
+    ܼܸܨܪܵܒܐ<adv>:
+    - ܼܢܨܵܐ
+  Future Prefix:
+    ܐܵܬܹܐ<vblex><fut><p3><m><sg>:
+    - ܒܹܬܩܵܛܹܠ
+    ܦܬܚ<vblex><fut><p3><m><sg>:
+    - ܒܹܬܦܵܬܹܚ
+  Genitive annexation:
+    ܒܬܐ<n><m><sg><gen>:
+    - ܒܸܬܵܐܬ
+    ܝܣܵܟܬܵܐ<n><f><sg><gen>:
+    - ܝܣܵܟܬܵܐܬ
+    ܟܵܬܼܐܼ<n><m><sg><gen>:
+    - ܟܵܢܬܼܢܬܐܬ
+    ܟܿܡܼܪ<n><m><sg><gen>:
+    - ܟܿܡܼܪܐܬ
+  Habitual Prefix:
+    ܐܵܬܹܐ<vblex><pres><p3><m><sg>:
+    - ܟܝܼܐܵܬܹܐ
+    ܡܕܡܚ<vblex><pres><p3><m><sg>:
+    - ܡܵܕܡܹܚ
+    ܦܬܚ<vblex><pres><p3><m><sg><hab>:
+    - ܟܝܼܦܵܬܹܚ
+  L-suffixes:
+    ܦܬܚ<vblex><past><p1><pl>:
+    - ܦܬܹܚܠܵܢ
+    ܦܬܚ<vblex><past><p1><sg>:
+    - ܦܬܹܚܠܝܼ
+    ܦܬܚ<vblex><past><p2><f><sg>:
+    - ܦܬܹܚܠܵܚ
+    ܦܬܚ<vblex><past><p2><m><sg>:
+    - ܦܬܹܚܠܘܼܚ
+    ܦܬܚ<vblex><past><p2><pl>:
+    - ܦܬܹܚܠܿܚܘܼܢ
+    ܦܬܚ<vblex><past><p3><f><sg>:
+    - ܦܬܹܚܠܵܐ
+    ܦܬܚ<vblex><past><p3><m><sg>:
+    - ܦܬܹܚܠܹܐ
+    ܦܬܚ<vblex><past><p3><pl>:
+    - ܦܬܹܚܠܘܼܢ
+  Nominative and oblique forms of demonstrative pronouns:
+    ܐܒܒܵܐܵ<prn><sg><m><med><obl>:
+    - ܕܵܐܒܒܵܐܵ
+    ܐܒܒܿܐܼ<prn><pl><far><obl>:
+    - ܕܐܒܒܿܐܼ
+    ܐܒܒܿܐܿ<prn><sg><m><far><obl>:
+    - ܕܐܒܒܿܐܿ
+    ܐܒܼܢ<prn><sg><m><def><obl>:
+    - ܕܐܒܼܢ
+    ܐܗܵܐ<prn><sg><m><near><obl>:
+    - ܕܵܐܗܵܐ
+    ܐܝܝܵܐܵ<prn><sg><f><med><obl>:
+    - ܕܵܐܝܝܵܐܵ
+    ܐܝܝܵܐܹ<prn><sg><f><far><obl>:
+    - ܕܵܐܝܝܵܐܹ
+    ܐܝܢ<prn><sg><f><def><obl>:
+    - ܕܵܝܢ
+    ܐܢܢܐ<prn><pl><near><obl>:
+    - ܕܵܢܢܵܐ
+    ܐܢܼܝ<prn><pl><def><obl>:
+    - ܕܐܢܼܝ
+  Nouns:
+    ܒܒܐ<n><m><sg>:
+    - ܒܵܒܵܐ
+    ܒܪܟܐ<n><f><sg>:
+    - ܒܸܪܟܵܐ
+    ܒܬܐ<n><f><sg>:
+    - ܼܒܼܬܵܐ
+    ܒܬܐ<n><m><sg>:
+    - ܒܸܬܵܐ
+    ܙܡܪܐ<n><m><sg>:
+    - ܙܵܡܵܪܵܐ
+    ܡܬܐ<n><f><sg>:
+    - ܡܵܬܵܐ
+  Parts of Speech: {}
+  Plural nouns:
+    ܒܲܝܬܵܐ<n><m><pl>:
+    - ܼܒܝܬܒܵܬܵܐ
+    ܒܹܥܬܵܐ <n><f><pl>:
+    - ܒܸܥܹ̈ܐ
+    ܒܼܠܵܐܵ<n><f><pl>:
+    - ܼܒܼܠܵܠܸܐܸ
+    ܟܲܡܬܵܐܵ<n><f><pl>:
+    - ܼܟܵܡܵܬܸܐܸ
+    ܟܲܪܡܵܐ<n><f><pl>:
+    - ܟܲܪ̈ܡܹܐ
+    ܟܵܠܼܐܼ<n><f><pl>:
+    - ܼܟܵܠܼܢܝܵܬܸܐܸ
+    ܟܼܣܵܐܵ<n><f><pl>:
+    - ܼܟܼܣܵܬܸܐܸ
+    ܡܠܟܐ<n><m><pl>:
+    - ܡܵܠܵܟܐ
+    ܢܝܢܐ<n><f><pl>:
+    - ܢܼܝܢܐ
+    ܣܕܐ<n><m><pl>:
+    - ܣܵܕܐ
+    ܣܵܒ݂ܘܿܢܵܐ<n><m><pl>:
+    - ܼܣܵܒ݂ܘܿܢܵܘܵܬܐ
+    ܦܬܢܐ<n><f><pl>:
+    - ܦܬܵܢܐ
+    ܨܡܪܐ<n><m><pl>:
+    - ܨܵܡܐ
+    ܬܝܬܐ<n><f><pl>:
+    - ܬܼܝܸܬܐ
+    ܬܢܐ<n><f><pl>:
+    - ܬܹܢܐ
+    ܬܪܐ<n><m><pl>:
+    - ܬܿܪܐ
+  Prepositions:
+    ܐܘܼܠܠܘܼܠ<pr><enc>:
+    - ܐܘܼܠܠܘܼܠܹܬ
+    ܐܹܠܬܹܚ<pr><enc>:
+    - ܐܸܠܬܸܚܹܬ
+    ܕܠܵܐ<pr><gen><p3><f><sg>:
+    - ܕܠܵܐ ܕܝܼܝܝܿܐ
+  Pronouns: {}
+  'S-suffixes: Default Form':
+    ܦܬܚ<vblex><pres><p1><f><sg>:
+    - ܦܵܬܚܵܢ
+    ܦܬܚ<vblex><pres><p1><m><sg>:
+    - ܦܵܬܚܹܢ
+    ܦܬܚ<vblex><pres><p1><pl>:
+    - ܦܵܬܚܵܚ
+    ܦܬܚ<vblex><pres><p2><f><sg>:
+    - ܦܵܬܚܵܐ
+    ܦܬܚ<vblex><pres><p2><m><sg>:
+    - ܦܵܬܚܹܬ
+    ܦܬܚ<vblex><pres><p2><pl>:
+    - ܦܵܬܚܼܬܼܢ
+    ܦܬܚ<vblex><pres><p3><f><sg>:
+    - ܦܵܬܚܵܐ
+    ܦܬܚ<vblex><pres><p3><m><sg>:
+    - ܦܵܬܹܚ
+    ܦܬܚ<vblex><pres><p3><pl>:
+    - ܦܵܬܚܝܼ
+  'S-suffixes: Long Form':
+    ܦܬܚ<vblex><pres><p1><f><sg>:
+    - ܦܵܬܚܵܢܢܵ
+    ܦܬܚ<vblex><pres><p1><m><sg>:
+    - ܦܵܬܚܝܼܢܵ
+    ܦܬܚ<vblex><pres><p1><pl>:
+    - ܦܵܬܚܵܚܹܢ
+    ܦܬܚ<vblex><pres><p2><f><sg>:
+    - ܦܵܬܚܵܬܹܢ
+    ܦܬܚ<vblex><pres><p2><m><sg>:
+    - ܦܵܬܚܝܼܬܹܢ
+    ܦܬܚ<vblex><pres><p2><pl>:
+    - ܦܵܬܚܼܬܼܢ
+    ܦܬܚ<vblex><pres><p3><f><sg>:
+    - ܦܵܬܚܵܢܝܼ
+    ܦܬܚ<vblex><pres><p3><m><sg>:
+    - ܦܵܬܹܚܢܝܼ
+    ܦܬܚ<vblex><pres><p3><pl>:
+    - ܦܵܬܚܝܼܢܝܼ
+  Verbs:
+    ܒܫܠ<vblex><pres><p3><m><sg>:
+    - ܒܵܫܹܠ
+    ܓܪܓܫ<vblex><pres><p3><pl>:
+    - ܓܵܪܓܹܫܫܝܼ
