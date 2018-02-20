@@ -26,12 +26,15 @@ LEXICON Root
 
 NounRoot ;
 
-
 LEXICON RegNounInfl
 
-%<n%>%<sg%>: # ;
-%<n%>%<pl%>:%>s # ;
+%<n%>: NounInfl-Number ;
 
+LEXICON NounInfl-Number
+
+%<sg%>:◌ܵܐ # ;
+
+%<pl%>:◌ܹܐ # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -39,9 +42,20 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A noun
+ܡܵܠܟ:ܡܵܠܟ RegNounInfl ; ! malc- "king"
+ܬܿܪ:ܬܿܪ RegNounInfl ; ! tor- "ox"
+ܣܵܕ:ܣܵܕ RegNounInfl ; ! sad- "witness"
+ܚܡܵܪ:ܚܡܵܪ RegNounInfl ; ! xmar- "ass"
+ܢܘܼܝܢ:ܢܘܼܝܢ RegNounInfl ; ! nuny- "fish"
+ܦܬܵܢ:ܦܬܵܢ RegNounInfl ; ! ptan- "plough"
+ܬܘܼܝܬ:ܬܘܼܝܬ RegNounInfl ; ! tuyt- "mulberry"
+ܬܸܢ:ܬܸܢ RegNounInfl ; ! ten- "fig"
 
+LEXICON Verb
 
+ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
+
+ܦܬܚ%<vblex%>%<pres%>%<p3%>%<f%>%<sg%>:ܦܵܬܚܵܐ # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
@@ -51,4 +65,3 @@ house:house RegNounInfl ; ! A noun
 ! https://github.com/hfst/
 ! http://www.cis.upenn.edu/~cis639/docs/lexc.html
 ! http://wiki.apertium.org/wiki/Hfst
-
