@@ -15,10 +15,12 @@ Consonants = ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ ;
 
 Rules
 
+"{A} realized as nothing between two consonants"
+%{A%}:0 <=> :Consonants _ :Consonants ;
 
-
-
-! %{A%}:0 <=>
+"{A} realized as alaph when word-final or word-inital"
+%{A%}:ܐ <=> _ .#. ;
+            .#. _ ;
 
 "Remove suffix vowel with vowel-ending stem"
 i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;

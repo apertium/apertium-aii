@@ -35,13 +35,18 @@ Multichar_Symbols
 
 LEXICON Prefix
 
-NounPrefix ;
 VerbPrefix ;
+PronounPrefix ;
 
 LEXICON VerbPrefix
 
 %<hab%>:ܟܝܼ VerbRoot ;
 %<fut%>:ܒܹܬ VerbRoot ;
+! %[%-hab%]:ܟܝܼ VerbRoot- still have to put [hab] in alphabet and multichar_symbols;
+
+LEXICON PronounPrefix
+
+%<obl%>:ܕ PronounRoot ;
 
 LEXICON Root
 
@@ -88,6 +93,9 @@ LEXICON PastVerbInfl
 
 %<vblex%>%<past%>: PastVerbInfl-Suffix ;
 
+LEXICON PronounInfl
+%<prn%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -108,6 +116,9 @@ LEXICON VerbRoot
 ܦܵܬ:ܦܵܬ PresentVerbInfl ; ! pat- "to open (present template)"
 ܦܬܹܚ:ܦܬܹܚ PastVerbInfl ; ! ptəx- "to open (past template)"
 
+LEXICON PronounRoot
+
+%{A%}◌ܵܗܵ%{A%} PronounInfl ; ! works except it gives <A> tags in the analysis?
 
 ! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
 
