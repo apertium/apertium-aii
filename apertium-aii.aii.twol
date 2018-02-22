@@ -4,13 +4,21 @@ Alphabet
 ܸ ܲ ܵ ܸ ܹ ܼ
 ◌:0
 
+%{A%}:0 %{A%}:ܐ
+
 ;
 
 Sets
 
-
+Vowels = ܲ ܵ ܸ ܼ ܹ;
+Consonants = ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ ;
 
 Rules
+
+
+
+
+! %{A%}:0 <=>
 
 "Remove suffix vowel with vowel-ending stem"
 i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
