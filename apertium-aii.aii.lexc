@@ -14,6 +14,10 @@ Multichar_Symbols
 %<pl%>  ! Plural
 %<sg%>  ! Singular
 
+! Case morphology
+%<nom%> ! Nominative
+%<gen%> ! Genitive
+
 ! Other symbols
 %>      ! Morpheme boundary
 
@@ -22,11 +26,15 @@ Multichar_Symbols
 !!!                       M O R P H O T A C T I C S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Prefix
+
+NounPrefix ;
+VerbPrefix ;
+
 LEXICON Root
 
 NounRoot ;
 VerbRoot ;
-
 
 LEXICON RegNounInfl
 
@@ -34,9 +42,17 @@ LEXICON RegNounInfl
 
 LEXICON NounInfl-Number
 
-%<sg%>:◌ܵܐ # ;
+%<sg%>:◌ܵܐ NounInfl-Case ;
 
-%<pl%>:◌ܹܐ # ;
+%<sg%>: NounInfl-Case;
+
+%<pl%>:◌ܹܐ NounInfl-Case ;
+
+LEXICON NounInfl-Case
+
+%<nom%>: # ;
+
+%<gen%>:ܬܹ # ;
 
 LEXICON PresentVerbInfl
 
