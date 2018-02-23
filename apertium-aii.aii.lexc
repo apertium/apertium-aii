@@ -2,6 +2,12 @@
 
 Multichar_Symbols
 
+! Features
+%[%-hab%] !  habitual - verb picks this tag up in LEXICON Prefixes
+%[%+hab%] !  if verb picks this tag up later, will analyze with <hab>
+%[%-fut%] !  future - in LEXICON prefixes
+%[%+fut%] !  future - comes in later (not sure where)
+
 ! Part of speech categories
 %<n%>   ! Noun
 %<vblex%>   ! Verb (lexical)
