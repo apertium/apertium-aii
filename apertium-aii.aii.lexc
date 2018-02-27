@@ -124,9 +124,7 @@ LEXICON VerbRoot
 
 LEXICON PronounRoot
 
-%{A%}◌ܵܗܵ%{A%}:%{A%}◌ܵܗܵ%{A%} PronounInfl ; ! works except it gives <A> tags in the analysis and won't analyse it with prefix
-ܒܝܼܒ:ܒܝܼܒ PronounInfl ; ! this pronoun is FAKE, I'm just debugging
-
+ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ;
 
 ! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
 

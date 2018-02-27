@@ -4,7 +4,8 @@ Alphabet
 ܸ ܲ ܵ ܸ ܹ ܼ
 ◌:0
 
-%{A%}:0 %{A%}:ܐ
+%{A%}:0
+! %{A%}:ܐ
 
 %[%-hab%]:0 %[%+hab%]:0
 %[%-fut%]:0 %[%+fut%]:0
@@ -18,10 +19,10 @@ Consonants = ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ ;
 
 Rules
 
-"{A} realized as nothing between two consonants"
-%{A%}:0 <=> :Consonants _ :Consonants ;
+! "{A} realized as nothing between two consonants"
+! %{A%}:0 <=> :Consonants _ :Consonants ;
 
-"{A} realized as alaph when word-final or word-inital"
+ "{A} realized as alaph when word-final or word-inital"
 %{A%}:ܐ <=> _ .#. ;
             .#. _ ;
 
