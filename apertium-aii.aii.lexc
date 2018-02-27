@@ -135,7 +135,7 @@ LEXICON VerbRoot
 
 LEXICON PronounRoot
 
-ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ;
+ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ; ! there's actually a vowel mark [a] over ◌ that doesn't render right in some text editors
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon

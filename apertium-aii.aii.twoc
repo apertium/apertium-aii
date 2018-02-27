@@ -14,3 +14,11 @@ Fx:0 /<= _ ;
     where Fx in ( %[%-hab%] %[%-fut%] )
         Fy in ( %[%+hab%] %[%+fut%] )
     matched ;
+
+"Remove paths without matching prefix feature"
+    Fx:0 /<= _ ;
+       except
+           Fy:0 :* _ ;
+       where Fy in ( %[%-hab%] %[%-fut%] )
+             Fx in ( %[%+hab%] %[%+fut%] )
+    matched ;
