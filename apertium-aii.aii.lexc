@@ -46,7 +46,7 @@ PronounPrefix ;
 
 LEXICON VerbPrefix
 
-%<fut%>:ܒܹܬ VerbRoot ;
+%[%-fut%]:ܒܹܬ VerbRoot ;
 %[%-hab%]:ܟܝܼ VerbRoot ;
 
 LEXICON PronounPrefix
@@ -94,17 +94,32 @@ LEXICON PresentVerbInfl-Suffix
 %<p1%>%<m%>%<sg%>:ܚܵܢ # ;
 %<p1%>%<pl%>:ܚܵܚ # ;
 
+! This way of doing prefixes might not be parsimonious
+! But I do like having them in PresentVerbInfl-Suffix because they only go on pres. verbs 
+
 ! Paths with hab prefix
 
 %<p3%>%<m%>%<sg%>%<hab%>%[%+hab%]:◌ܹܚ # ;
 %<p3%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
-%<p3%>%<pl%>:ܚܝܼ # ;
-%<p2%>%<m%>%<sg%>:ܚܹܬ # ;
-%<p2%>%<f%>%<sg%>:ܚܵ # ;
-%<p2%>%<pl%>:ܚܝܼܬܘܼܢ # ;
-%<p1%>%<m%>%<sg%>:ܚܹܢ # ;
-%<p1%>%<m%>%<sg%>:ܚܵܢ # ;
-%<p1%>%<pl%>:ܚܵܚ # ;
+%<p3%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼ # ;
+%<p2%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܬ # ;
+%<p2%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
+%<p2%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼܬܘܼܢ # ;
+%<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܢ # ;
+%<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܵܢ # ;
+%<p1%>%<pl%>%<hab%>%[%+hab%]:ܚܵܚ # ;
+
+! Paths with fut prefix
+
+%<p3%>%<m%>%<sg%>%<fut%>%[%+fut%]:◌ܹܚ # ;
+%<p3%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵܐ # ;
+%<p3%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼ # ;
+%<p2%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܬ # ;
+%<p2%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵ # ;
+%<p2%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼܬܘܼܢ # ;
+%<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܢ # ;
+%<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܵܢ # ;
+%<p1%>%<pl%>%<fut%>%[%+fut%]:ܚܵܚ # ;
 
 LEXICON PastVerbInfl
 
