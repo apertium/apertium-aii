@@ -1,0 +1,16 @@
+Alphabet
+
+%[%-hab%]:0 %[%+hab%]:0
+%[%-fut%]:0 %[%+fut%]:0
+
+;
+
+Rules
+
+"Remove paths without matching suffix feature"
+Fx:0 /<= _ ;
+    except
+      _ :* Fy:0 ;
+    where Fx in ( %[%-hab%] %[%-fut%] )
+        Fy in ( %[%+hab%] %[%+fut%] )
+    matched ;

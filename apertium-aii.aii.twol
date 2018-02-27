@@ -7,8 +7,7 @@ Alphabet
 %{A%}:0
 ! %{A%}:ܐ
 
-%[%-hab%]:0 %[%+hab%]:0
-%[%-fut%]:0 %[%+fut%]:0
+
 
 ;
 
@@ -25,6 +24,8 @@ Rules
  "{A} realized as alaph when word-final or word-inital"
 %{A%}:ܐ <=> _ .#. ;
             .#. _ ;
+
+
 
 "Remove suffix vowel with vowel-ending stem"
 i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;

@@ -46,9 +46,8 @@ PronounPrefix ;
 
 LEXICON VerbPrefix
 
-%<hab%>:ܟܝܼ VerbRoot ;
 %<fut%>:ܒܹܬ VerbRoot ;
-! %[%-hab%]:ܟܝܼ VerbRoot- still have to put [hab] in alphabet and multichar_symbols;
+%[%-hab%]:ܟܝܼ VerbRoot ;
 
 LEXICON PronounPrefix
 
@@ -95,6 +94,18 @@ LEXICON PresentVerbInfl-Suffix
 %<p1%>%<m%>%<sg%>:ܚܵܢ # ;
 %<p1%>%<pl%>:ܚܵܚ # ;
 
+! Paths with hab prefix
+
+%<p3%>%<m%>%<sg%>%<hab%>%[%+hab%]:◌ܹܚ # ;
+%<p3%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
+%<p3%>%<pl%>:ܚܝܼ # ;
+%<p2%>%<m%>%<sg%>:ܚܹܬ # ;
+%<p2%>%<f%>%<sg%>:ܚܵ # ;
+%<p2%>%<pl%>:ܚܝܼܬܘܼܢ # ;
+%<p1%>%<m%>%<sg%>:ܚܹܢ # ;
+%<p1%>%<m%>%<sg%>:ܚܵܢ # ;
+%<p1%>%<pl%>:ܚܵܚ # ;
+
 LEXICON PastVerbInfl
 
 %<vblex%>%<past%>: PastVerbInfl-Suffix ;
@@ -125,10 +136,6 @@ LEXICON VerbRoot
 LEXICON PronounRoot
 
 ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ;
-
-! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<m%>%<sg%>:ܦܵܬܹܚ # ;
-
-! ܦܬܚ%<vblex%>%<pres%>%<p3%>%<f%>%<sg%>:ܦܵܬܚܵܐ # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
