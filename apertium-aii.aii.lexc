@@ -39,6 +39,13 @@ Multichar_Symbols
 !!!                       M O R P H O T A C T I C S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Root
+
+Prefix ;
+VerbRoot ;
+NounRoot ;
+PronounRoot ;
+
 LEXICON Prefix
 
 VerbPrefix ;
@@ -52,13 +59,6 @@ LEXICON VerbPrefix
 LEXICON PronounPrefix
 
 %<obl%>:ܕ PronounRoot ;
-
-LEXICON Root
-
-Prefix ;
-VerbRoot ;
-NounRoot ;
-PronounRoot ;
 
 LEXICON RegNounInfl
 
@@ -84,42 +84,49 @@ LEXICON PresentVerbInfl
 
 LEXICON PresentVerbInfl-Suffix
 
-%<p3%>%<m%>%<sg%>:◌ܹܚ # ;
-%<p3%>%<f%>%<sg%>:ܚܵ # ;
-%<p3%>%<pl%>:ܚܝܼ # ;
-%<p2%>%<m%>%<sg%>:ܚܹܬ # ;
-%<p2%>%<f%>%<sg%>:ܚܵ # ;
-%<p2%>%<pl%>:ܚܝܼܬܘܼܢ # ;
-%<p1%>%<m%>%<sg%>:ܚܹܢ # ;
-%<p1%>%<m%>%<sg%>:ܚܵܢ # ;
-%<p1%>%<pl%>:ܚܵܚ # ;
+%<p3%>%<m%>%<sg%>:◌ܹܚ PresentVerbInfl-Prefix ;
+%<p3%>%<f%>%<sg%>:ܚܵܐ PresentVerbInfl-Prefix ;
+%<p3%>%<pl%>:ܚܝܼ PresentVerbInfl-Prefix ;
+%<p2%>%<m%>%<sg%>:ܚܹܬ PresentVerbInfl-Prefix ;
+%<p2%>%<f%>%<sg%>:ܚܵ PresentVerbInfl-Prefix ;
+%<p2%>%<pl%>:ܚܝܼܬܘܼܢ PresentVerbInfl-Prefix ;
+%<p1%>%<m%>%<sg%>:ܚܹܢ PresentVerbInfl-Prefix ;
+%<p1%>%<m%>%<sg%>:ܚܵܢ PresentVerbInfl-Prefix ;
+%<p1%>%<pl%>:ܚܵܚ PresentVerbInfl-Prefix ;
 
-! This way of doing prefixes might not be parsimonious
-! But I do like having them in PresentVerbInfl-Suffix because they only go on pres. verbs
+! This was the old way of doing prefixes--replaced with PresentVerbInfl-Prefix
+!  ||
+!  \/
 
 ! Paths with hab prefix
 
-%<p3%>%<m%>%<sg%>%<hab%>%[%+hab%]:◌ܹܚ # ;
-%<p3%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
-%<p3%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼ # ;
-%<p2%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܬ # ;
-%<p2%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
-%<p2%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼܬܘܼܢ # ;
-%<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܢ # ;
-%<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܵܢ # ;
-%<p1%>%<pl%>%<hab%>%[%+hab%]:ܚܵܚ # ;
+! %<p3%>%<m%>%<sg%>%<hab%>%[%+hab%]:◌ܹܚ ;
+! %<p3%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵܐ ;
+! %<p3%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼ # ;
+! %<p2%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܬ # ;
+! %<p2%>%<f%>%<sg%>%<hab%>%[%+hab%]:ܚܵ # ;
+! %<p2%>%<pl%>%<hab%>%[%+hab%]:ܚܝܼܬܘܼܢ # ;
+! %<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܹܢ # ;
+! %<p1%>%<m%>%<sg%>%<hab%>%[%+hab%]:ܚܵܢ # ;
+! %<p1%>%<pl%>%<hab%>%[%+hab%]:ܚܵܚ # ;
 
 ! Paths with fut prefix
 
-%<p3%>%<m%>%<sg%>%<fut%>%[%+fut%]:◌ܹܚ # ;
-%<p3%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵܐ # ;
-%<p3%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼ # ;
-%<p2%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܬ # ;
-%<p2%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵ # ;
-%<p2%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼܬܘܼܢ # ;
-%<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܢ # ;
-%<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܵܢ # ;
-%<p1%>%<pl%>%<fut%>%[%+fut%]:ܚܵܚ # ;
+! %<p3%>%<m%>%<sg%>%<fut%>%[%+fut%]:◌ܹܚ # ;
+! %<p3%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵܐ # ;
+! %<p3%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼ # ;
+! %<p2%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܬ # ;
+! %<p2%>%<f%>%<sg%>%<fut%>%[%+fut%]:ܚܵ # ;
+! %<p2%>%<pl%>%<fut%>%[%+fut%]:ܚܝܼܬܘܼܢ # ;
+! %<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܹܢ # ;
+! %<p1%>%<m%>%<sg%>%<fut%>%[%+fut%]:ܚܵܢ # ;
+! %<p1%>%<pl%>%<fut%>%[%+fut%]:ܚܵܚ # ;
+
+LEXICON PresentVerbInfl-Prefix
+
+%<fut%>%[%+fut%]: # ;
+%<hab%>%[%+hab%]: # ;
+: # ;
 
 LEXICON PastVerbInfl
 
