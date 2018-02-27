@@ -5,8 +5,8 @@ Multichar_Symbols
 ! Features
 %[%-hab%] !  habitual - verb picks this tag up in LEXICON Prefixes
 %[%+hab%] !  if verb picks this tag up later, will analyze with <hab>
-%[%-fut%] !  future - in LEXICON prefixes
-%[%+fut%] !  future - comes in later (not sure where)
+%[%-fut%] !  future
+%[%+fut%] !
 
 ! Part of speech categories
 %<n%>   ! Noun
@@ -95,7 +95,7 @@ LEXICON PresentVerbInfl-Suffix
 %<p1%>%<pl%>:ܚܵܚ # ;
 
 ! This way of doing prefixes might not be parsimonious
-! But I do like having them in PresentVerbInfl-Suffix because they only go on pres. verbs 
+! But I do like having them in PresentVerbInfl-Suffix because they only go on pres. verbs
 
 ! Paths with hab prefix
 
@@ -125,6 +125,17 @@ LEXICON PastVerbInfl
 
 %<vblex%>%<past%>: PastVerbInfl-Suffix ;
 
+LEXICON PastVerbInfl-Suffix
+
+%<p3%>%<m%>%<sg%>:ܠܹܐ # ;
+%<p3%>%<f%>%<sg%>:ܠܵܐ # ;
+%<p3%>%<pl%>:ܠܘܼܢ # ;
+%<p2%>%<m%>%<sg%>:ܠܘܼܚ # ;
+%<p2%>%<f%>%<sg%>:ܠܵܚ # ;
+%<p2%>%<pl%>:ܠܿܚܘܼܢ # ;
+%<p1%>%<sg%>:ܠܝܼ # ;
+%<p1%>%<pl%>:ܠܵܢ # ;
+
 LEXICON PronounInfl
 %<prn%>: # ;
 
@@ -150,7 +161,7 @@ LEXICON VerbRoot
 
 LEXICON PronounRoot
 
-ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ; ! there's actually a vowel mark [a] over ◌ that doesn't render right in some text editors
+ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl ; ! there's actually a vowel [a] over ◌ that doesn't render right in some text editors
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
