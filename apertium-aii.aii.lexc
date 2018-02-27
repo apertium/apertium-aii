@@ -94,6 +94,10 @@ LEXICON PresentVerbInfl-Suffix
 %<p1%>%<m%>%<sg%>:ܚܵܢ PresentVerbInfl-Prefix ;
 %<p1%>%<pl%>:ܚܵܚ PresentVerbInfl-Prefix ;
 
+! long form -- should analyze but not generate
+
+! %<p3%>%<m%>%<sg%>:◌ܹܚܢܝܼ PresentVerbInfl-Prefix ; no idea if this works yet
+
 ! This was the old way of doing prefixes--replaced with PresentVerbInfl-Prefix
 !  ||
 !  \/
