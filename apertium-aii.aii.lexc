@@ -91,12 +91,20 @@ LEXICON PresentVerbInfl-Suffix
 %<p2%>%<f%>%<sg%>:ܚܵ PresentVerbInfl-Prefix ;
 %<p2%>%<pl%>:ܚܝܼܬܘܼܢ PresentVerbInfl-Prefix ;
 %<p1%>%<m%>%<sg%>:ܚܹܢ PresentVerbInfl-Prefix ;
-%<p1%>%<m%>%<sg%>:ܚܵܢ PresentVerbInfl-Prefix ;
+%<p1%>%<f%>%<sg%>:ܚܵܢ PresentVerbInfl-Prefix ;
 %<p1%>%<pl%>:ܚܵܚ PresentVerbInfl-Prefix ;
 
 ! long form -- should analyze but not generate
 
-! %<p3%>%<m%>%<sg%>:◌ܹܚܢܝܼ PresentVerbInfl-Prefix ; no idea if this works yet
+%<p3%>%<m%>%<sg%>:◌ܹܚܢܝܼ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p3%>%<f%>%<sg%>:ܚܵܢܝܼ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p3%>%<pl%>:ܚܝܼܢܝܼ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p2%>%<m%>%<sg%>:ܚܝܼܬܹܢ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p2%>%<f%>%<sg%>:ܚܵܬܹܢ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p2%>%<pl%>:ܚܝܼܬܘܼܢ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p1%>%<m%>%<sg%>:ܚܝܼܢܵܐ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p1%>%<f%>%<sg%>:ܚܵܢܵܐ PresentVerbInfl-Prefix ; ! Dir/LR
+%<p1%>%<pl%>:ܚܵܚܹܢ PresentVerbInfl-Prefix ; ! Dir/LR
 
 ! This was the old way of doing prefixes--replaced with PresentVerbInfl-Prefix
 !  ||
