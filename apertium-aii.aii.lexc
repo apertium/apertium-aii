@@ -48,11 +48,8 @@ Multichar_Symbols
 ! TAM morphology
 %<hab%> ! Habitual
 %<past%> ! Past
-<<<<<<< HEAD
 %<pres%> ! Present
-=======
 %<pres%> ! Pres
->>>>>>> b151e63ed35fcc7aea171dbdb506c9104453ae2f
 %<fut%> ! Future
 
 ! Pronoun morphology
@@ -72,6 +69,7 @@ Prefix ;
 VerbRoot ;
 NounRoot ;
 PronounRoot ;
+Punctuation ;
 
 LEXICON Prefix
 
@@ -213,6 +211,32 @@ LEXICON PronounRoot
 ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl ;
 ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl ;
 ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl ;
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%؛%<sent%>:%؛ # ;
+! %%<sent%>:%: # ; I can't figure out how to type the colon
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%،%<cm%>:%، # ;
+%؟%<sent%>:%؟ # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<equot%>:%« # ; ! changed from lquot to equot "end quote" because that's confusing
+%»%<bquot%>:%» # ;
+%”%<equot%>:%” # ;
+%“%<bquot%>:%“ # ;
+%(%<epar%>:%( # ;
+%]%<bpar%>:%] # ;
+%[%<epar%>:%[ # ;
+%)%<bpar%>:%) # ;
+%܀%<epar%>:%܀ # ; ! special Syriac paragraph ending symbol
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
