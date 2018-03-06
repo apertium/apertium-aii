@@ -19,6 +19,15 @@ Multichar_Symbols
 ! Archiphonemes
 %{A%}   ! > Alaf if word-final or word-initial, otherwise null
 
+! Person morphology
+%<p1%> ! First Person
+%<p2%> ! Second Person
+%<p3%> ! Third Person
+
+! Gender morphology
+%<m%> ! Masculine
+%<f%> ! Feminine
+
 ! Number morphology
 %<pl%>  ! Plural
 %<sg%>  ! Singular
@@ -29,7 +38,12 @@ Multichar_Symbols
 
 ! TAM morphology
 %<hab%> ! Habitual
+%<past%> ! Past
+%<pres%> ! Pres
 %<fut%> ! Future
+
+! Pronoun morphology
+%<obl%> ! Oblique
 
 ! Other symbols
 %>      ! Morpheme boundary
