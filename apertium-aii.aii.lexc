@@ -23,12 +23,23 @@ Multichar_Symbols
 %<pl%>  ! Plural
 %<sg%>  ! Singular
 
+! Gender morphology
+%<m%> ! Masculine
+%<f%> ! Feminine
+
+! Person
+%<p1%> ! First Person
+%<p2%> ! Second Person
+%<p3%> ! Third Person
+
 ! Case morphology
 %<nom%> ! Nominative
 %<gen%> ! Genitive
 
 ! TAM morphology
 %<hab%> ! Habitual
+%<past%> ! Past
+%<pres%> ! Present
 %<fut%> ! Future
 
 ! Other symbols
