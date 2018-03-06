@@ -128,25 +128,6 @@ Tests:
     ܕܠܵܐ<pr><gen><p3><f><sg>:
     - ܕܠܵܐ ܕܝܼܝܝܿܐ
   Pronouns: {}
-  'S-suffixes: Default Form':
-    ܦܬܚ<vblex><pres><p1><f><sg>:
-    - ܦܵܬܚܵܢ
-    ܦܬܚ<vblex><pres><p1><m><sg>:
-    - ܦܵܬܚܹܢ
-    ܦܬܚ<vblex><pres><p1><pl>:
-    - ܦܵܬܚܵܚ
-    ܦܬܚ<vblex><pres><p2><f><sg>:
-    - ܦܵܬܚܵܐ
-    ܦܬܚ<vblex><pres><p2><m><sg>:
-    - ܦܵܬܚܹܬ
-    ܦܬܚ<vblex><pres><p2><pl>:
-    - ܦܵܬܚܝܼܬܘܼܢ
-    ܦܬܚ<vblex><pres><p3><f><sg>:
-    - ܦܵܬܚܵܐ
-    ܦܬܚ<vblex><pres><p3><m><sg>:
-    - ܦܵܬܹܚ
-    ܦܬܚ<vblex><pres><p3><pl>:
-    - ܦܵܬܚܝܼ
   'S-suffixes: Long Form':
     ܦܬܚ<vblex><pres><p1><f><sg>:
     - ܦܵܬܚܵܢܢܵ
