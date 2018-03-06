@@ -40,7 +40,7 @@
       <program name="lt-proc -w">
         <file name="aii.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -l -n -w">
         <file name="aii.rlx.bin"/>
       </program>
     </pipeline>
@@ -59,4 +59,3 @@
   </mode>
 
 </modes>
-
