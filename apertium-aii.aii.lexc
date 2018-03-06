@@ -58,6 +58,8 @@ Multichar_Symbols
 ! Other symbols
 %>      ! Morpheme boundary
 
+! 3/6/18 add punctuation tags
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -214,6 +216,8 @@ LEXICON PronounRoot
 ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl ;
 
 LEXICON Punctuation
+
+! still need to add these to multichar symbols
 
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
