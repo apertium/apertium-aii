@@ -36,21 +36,21 @@ Tests:
     ܦܬܚ<vblex><pres><p3><m><sg><hab>:
     - ܟܝܼܦܵܬܹܚ
   L-suffixes:
-    ܦܬܚ<vblex><past><p1><pl>:
+    ܦܬܹܚ<vblex><past><p1><pl>:
     - ܦܬܹܚܠܵܢ
-    ܦܬܚ<vblex><past><p1><sg>:
+    ܦܬܹܚ<vblex><past><p1><sg>:
     - ܦܬܹܚܠܝܼ
-    ܦܬܚ<vblex><past><p2><f><sg>:
+    ܦܬܹܚ<vblex><past><p2><f><sg>:
     - ܦܬܹܚܠܵܚ
-    ܦܬܚ<vblex><past><p2><m><sg>:
+    ܦܬܹܚ<vblex><past><p2><m><sg>:
     - ܦܬܹܚܠܘܼܚ
-    ܦܬܚ<vblex><past><p2><pl>:
+    ܦܬܹܚ<vblex><past><p2><pl>:
     - ܦܬܹܚܠܿܚܘܼܢ
-    ܦܬܚ<vblex><past><p3><f><sg>:
+    ܦܬܹܚ<vblex><past><p3><f><sg>:
     - ܦܬܹܚܠܵܐ
-    ܦܬܚ<vblex><past><p3><m><sg>:
+    ܦܬܹܚ<vblex><past><p3><m><sg>:
     - ܦܬܹܚܠܹܐ
-    ܦܬܚ<vblex><past><p3><pl>:
+    ܦܬܹܚ<vblex><past><p3><pl>:
     - ܦܬܹܚܠܘܼܢ
   Nominative and oblique forms of demonstrative pronouns:
     ܐܒܒܵܐܵ<prn><sg><m><med><obl>:
@@ -129,23 +129,23 @@ Tests:
     - ܕܠܵܐ ܕܝܼܝܝܿܐ
   Pronouns: {}
   'S-suffixes: Long Form':
-    ܦܬܚ<vblex><pres><p1><f><sg>:
+    ܦܵܬ<vblex><pres><p1><f><sg>:
     - ܦܵܬܚܵܢܢܵ
-    ܦܬܚ<vblex><pres><p1><m><sg>:
+    ܦܵܬ<vblex><pres><p1><m><sg>:
     - ܦܵܬܚܝܼܢܵ
-    ܦܬܚ<vblex><pres><p1><pl>:
+    ܦܵܬ<vblex><pres><p1><pl>:
     - ܦܵܬܚܵܚܹܢ
-    ܦܬܚ<vblex><pres><p2><f><sg>:
+    ܦܵܬ<vblex><pres><p2><f><sg>:
     - ܦܵܬܚܵܬܹܢ
-    ܦܬܚ<vblex><pres><p2><m><sg>:
+    ܦܵܬ<vblex><pres><p2><m><sg>:
     - ܦܵܬܚܝܼܬܹܢ
-    ܦܬܚ<vblex><pres><p2><pl>:
+    ܦܵܬ<vblex><pres><p2><pl>:
     - ܦܵܬܚܼܬܼܢ
-    ܦܬܚ<vblex><pres><p3><f><sg>:
+    ܦܵܬ<vblex><pres><p3><f><sg>:
     - ܦܵܬܚܵܢܝܼ
-    ܦܬܚ<vblex><pres><p3><m><sg>:
+    ܦܵܬ<vblex><pres><p3><m><sg>:
     - ܦܵܬܹܚܢܝܼ
-    ܦܬܚ<vblex><pres><p3><pl>:
+    ܦܵܬ<vblex><pres><p3><pl>:
     - ܦܵܬܚܝܼܢܝܼ
   Verbs:
     ܒܫܠ<vblex><pres><p3><m><sg>:
