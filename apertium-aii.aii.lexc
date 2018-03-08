@@ -5,8 +5,10 @@ Multichar_Symbols
 ! Features
 %[%-hab%] !  habitual - verb picks this tag up in LEXICON Prefixes
 %[%+hab%] !  if verb picks this tag up later, will analyze with <hab>
-%[%-fut%] !  future
-%[%+fut%] !
+%[%-fut%] !  future on verbs
+%[%+fut%]
+%[%-obl%] ! oblique on Pronouns
+%[%+obl%]
 
 ! Part of speech categories
 %<n%>   ! Noun
@@ -95,7 +97,7 @@ LEXICON VerbPrefix
 
 LEXICON PronounPrefix
 
-%<obl%>:ܕ PronounRoot ;
+%[%-obl%]:ܕ PronounRoot ;
 
 LEXICON RegNounInfl
 
@@ -193,7 +195,11 @@ LEXICON PastVerbInfl-Suffix
 %<p1%>%<pl%>:ܠܵܢ # ;
 
 LEXICON PronounInfl
-%<prn%>: # ;
+%<prn%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-Prefix ;
+%<obl%>%[%+obl%]: # ;
+: # ;
 
 LEXICON AdverbInfl
 %<adv%>: # ;
