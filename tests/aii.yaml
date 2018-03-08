@@ -5,10 +5,10 @@ Config:
     Morph: ../aii.automorf.hfst
 Tests:
   Adjectives:
-    ܚܬ<adj><pl>:
+    ܚܵܬܹܐ<adj>:
     - ܚܵܬܹܐ
-    ܫܚܢ<adj><m><sg>:
-    - ܫܚܝܼܢܵܐ
+    ܫܵܚܝܼܢܵܐ<adj>:
+    - ܫܵܚܝܼܢܵܐ
   Adverbs:
     ܢܝܼܚܵܐ<adv>:
     - ܢܝܼܚܵܐ

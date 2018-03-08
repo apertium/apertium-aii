@@ -80,6 +80,7 @@ VerbRoot ;
 NounRoot ;
 PronounRoot ;
 AdverbRoot ;
+AdjectiveRoot ;
 Punctuation ;
 
 LEXICON Prefix
@@ -197,6 +198,9 @@ LEXICON PronounInfl
 LEXICON AdverbInfl
 %<adv%>: # ;
 
+LEXICON AdjectiveInfl
+%<adj%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -231,6 +235,10 @@ LEXICON AdverbRoot
 
 ܢܝܼܚܵܐ:ܢܝܼܚܵܐ AdverbInfl ; ! nixa 'slowly'
 ܚܹܪܒܵܐ:ܚܹܪܒܵܐ AdverbInfl ; ! xərba 'badly'
+
+LEXICON AdjectiveRoot
+ܚܵܬܹܐ:ܚܵܬܹܐ AdjectiveInfl ;
+ܫܵܚܝܼܢܵܐ:ܫܵܚܝܼܢܵܐ AdjectiveInfl ;
 
 LEXICON Punctuation
 
