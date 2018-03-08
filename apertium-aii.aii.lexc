@@ -185,6 +185,9 @@ LEXICON PastVerbInfl-Suffix
 LEXICON PronounInfl
 %<prn%>: # ;
 
+LEXICON AdverbInfl
+%<adv%> # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -214,6 +217,11 @@ LEXICON PronounRoot
 ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl ;
 ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl ;
 ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl ;
+
+LEXICON AdverbRoot
+
+ܢܝܼܚܵܐ:ܢܝܼܚܵܐ AdverbInfl ; ! nixa 'slowly'
+ܚܹܪܵܒܐ:ܚܹܪܵܒܐ AdverbInfl ; ! xərba 'badly'
 
 LEXICON Punctuation
 
