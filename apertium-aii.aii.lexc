@@ -197,7 +197,7 @@ LEXICON PastVerbInfl-Suffix
 LEXICON PronounInfl
 %<prn%>: PronounInfl-Prefix ;
 
-LEXICON PronounInfl-Prefix ;
+LEXICON PronounInfl-Prefix
 %<obl%>%[%+obl%]: # ;
 : # ;
 
