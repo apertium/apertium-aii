@@ -58,7 +58,15 @@ Multichar_Symbols
 ! Other symbols
 %>      ! Morpheme boundary
 
-! 3/6/18 add punctuation tags
+! Punctuation
+%<sent%> ! Sentence punct
+%<guio%> ! Dashes
+%<cm%> ! Comma
+%<apos%> ! Apostrophe
+%<equot%> ! End quote
+%<bquot%> ! Begin quote
+%<epar%> ! End paragraph
+%<bpar%> ! Begin paragraph
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -71,6 +79,7 @@ Prefix ;
 VerbRoot ;
 NounRoot ;
 PronounRoot ;
+AdverbRoot ;
 Punctuation ;
 
 LEXICON Prefix
@@ -186,7 +195,7 @@ LEXICON PronounInfl
 %<prn%>: # ;
 
 LEXICON AdverbInfl
-%<adv%> # ;
+%<adv%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
