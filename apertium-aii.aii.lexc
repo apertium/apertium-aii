@@ -123,15 +123,15 @@ LEXICON PresentVerbInfl
 
 LEXICON PresentVerbInfl-Suffix
 
-%<p3%>%<m%>%<sg%>:◌ܹܚ PresentVerbInfl-Prefix ;
-%<p3%>%<f%>%<sg%>:ܚܵܐ PresentVerbInfl-Prefix ;
-%<p3%>%<pl%>:ܚܝܼ PresentVerbInfl-Prefix ;
-%<p2%>%<m%>%<sg%>:ܚܹܬ PresentVerbInfl-Prefix ;
-%<p2%>%<f%>%<sg%>:ܚܵ PresentVerbInfl-Prefix ;
-%<p2%>%<pl%>:ܚܝܼܬܘܼܢ PresentVerbInfl-Prefix ;
-%<p1%>%<m%>%<sg%>:ܚܹܢ PresentVerbInfl-Prefix ;
-%<p1%>%<f%>%<sg%>:ܚܵܢ PresentVerbInfl-Prefix ;
-%<p1%>%<pl%>:ܚܵܚ PresentVerbInfl-Prefix ;
+%<p3%>%<m%>%<sg%>: PresentVerbInfl-Prefix ;
+%<p3%>%<f%>%<sg%>:◌ܵܐ PresentVerbInfl-Prefix ;
+%<p3%>%<pl%>:ܝܼ PresentVerbInfl-Prefix ;
+%<p2%>%<m%>%<sg%>:◌ܹܬ PresentVerbInfl-Prefix ;
+%<p2%>%<f%>%<sg%>:◌ܵܐ PresentVerbInfl-Prefix ;
+%<p2%>%<pl%>:ܝܼܬܘܼܢ PresentVerbInfl-Prefix ;
+%<p1%>%<m%>%<sg%>:◌ܹܢ PresentVerbInfl-Prefix ;
+%<p1%>%<f%>%<sg%>:◌ܵܢ PresentVerbInfl-Prefix ;
+%<p1%>%<pl%>:◌ܵܚ PresentVerbInfl-Prefix ;
 
 ! long form -- should analyze but not generate
 
@@ -252,7 +252,7 @@ LEXICON NounRoot
 
 LEXICON VerbRoot
 
-ܦܵܬ:ܦܵܬ PresentVerbInfl ; ! pat- "to open (present template)"
+ܦܵܬܚ:ܦܵܬܚ PresentVerbInfl ; ! patx- "to open (present template)"
 ܦܬܹܚ:ܦܬܹܚ PastVerbInfl ; ! ptəx- "to open (past template)"
 
 LEXICON PronounRoot
