@@ -197,6 +197,9 @@ LEXICON PastVerbInfl-Suffix
 LEXICON PronounInfl-SgMNear
 %<prn%>%<sg%>%<m%>%<near%>: PronounInfl-Prefix ;
 
+LEXICON PronounInfl-PlNear
+%<prn%>%<pl%>%<near%>: PronounInfl-Prefix ;
+
 LEXICON PronounInfl-Prefix
 %<obl%>%[%+obl%]: # ;
 : # ;
@@ -231,7 +234,7 @@ LEXICON VerbRoot
 LEXICON PronounRoot
 
 ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl-SgMNear ; ! there's actually a vowel [a] over ◌ that doesn't render right in some text editors
-ܐܵܢܢܹܐ:%{A%}◌ܵܢܢܹ%{A%} PronounInfl ;
+ܐܵܢܢܹܐ:%{A%}◌ܵܢܢܹ%{A%} PronounInfl-PlNear ;
 ܐܵܒܒܵܐ:%{A%}◌ܵܒܒܵ%{A%} PronounInfl ;
 ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl ;
 ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl ;
