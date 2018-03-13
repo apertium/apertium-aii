@@ -200,6 +200,27 @@ LEXICON PronounInfl-SgMNear
 LEXICON PronounInfl-PlNear
 %<prn%>%<pl%>%<near%>: PronounInfl-Prefix ;
 
+LEXICON PronounInfl-SgMMed
+%<prn%>%<sg%>%<m%>%<med%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-SgFMed
+%<prn%>%<sg%>%<f%>%<med%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-SgMFar
+%<prn%>%<sg%>%<m%>%<far%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-SgFFar
+%<prn%>%<sg%>%<f%>%<far%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-PlFar
+%<prn%>%<pl%>%<far%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-SgMDef
+%<prn%>%<sg%>%<m%>%<def%>: PronounInfl-Prefix ;
+
+LEXICON PronounInfl-SgFDef
+%<prn%>%<sg%>%<f%>%<def%>: PronounInfl-Prefix ;
+
 LEXICON PronounInfl-Prefix
 %<obl%>%[%+obl%]: # ;
 : # ;
@@ -235,10 +256,13 @@ LEXICON PronounRoot
 
 ܐܵܗܵܐ:%{A%}◌ܵܗܵ%{A%} PronounInfl-SgMNear ; ! there's actually a vowel [a] over ◌ that doesn't render right in some text editors
 ܐܵܢܢܹܐ:%{A%}◌ܵܢܢܹ%{A%} PronounInfl-PlNear ;
-ܐܵܒܒܵܐ:%{A%}◌ܵܒܒܵ%{A%} PronounInfl ;
-ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl ;
-ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl ;
-ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl ;
+ܐܵܒܒܵܐ:%{A%}◌ܵܒܒܵ%{A%} PronounInfl-SgMMed ;
+ܐܵܝܝܵܐ:%{A%}◌ܵܝܝܵ%{A%} PronounInfl-SgFMed ;
+ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl-SgMFar ;
+ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl-SgFFar ;
+ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl-PlFar ;
+ܐܵܒܘܼܢ:%{A%}◌ܵܒܘܼܢ PronounInfl-SgMDef ;
+ܐܵܝܹܢ:%{A%}◌ܵܝܹܢ PronounInfl-SgFDef ;
 
 LEXICON AdverbRoot
 
