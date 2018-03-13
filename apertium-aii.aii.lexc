@@ -221,6 +221,9 @@ LEXICON PronounInfl-SgMDef
 LEXICON PronounInfl-SgFDef
 %<prn%>%<sg%>%<f%>%<def%>: PronounInfl-Prefix ;
 
+LEXICON PronounInfl-PlDef
+%<prn%>%<pl%>%<def%>: PronounInfl-Prefix ;
+
 LEXICON PronounInfl-Prefix
 %<obl%>%[%+obl%]: # ;
 : # ;
@@ -263,6 +266,7 @@ LEXICON PronounRoot
 ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ PronounInfl-PlFar ;
 ܐܵܒܘܼܢ:%{A%}◌ܵܒܘܼܢ PronounInfl-SgMDef ;
 ܐܵܝܹܢ:%{A%}◌ܵܝܹܢ PronounInfl-SgFDef ;
+ܐܵܢܝܼ:%{A%}◌ܵܢܝܼ PronounInfl-PlDef ;
 
 LEXICON AdverbRoot
 
