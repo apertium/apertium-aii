@@ -130,9 +130,9 @@ Tests:
   Pronouns: {}
   'S-suffixes: Long Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
-    - ܦܵܬܚܵܢܢܵ
+    - ܦܵܬܚܵܢܵܐ
     ܦܵܬܚ<vblex><pres><p1><m><sg>:
-    - ܦܵܬܚܝܼܢܵ
+    - ܦܵܬܚܝܼܢܵܐ
     ܦܵܬܚ<vblex><pres><p1><pl>:
     - ܦܵܬܚܵܚܹܢ
     ܦܵܬܚ<vblex><pres><p2><f><sg>:
@@ -140,11 +140,11 @@ Tests:
     ܦܵܬܚ<vblex><pres><p2><m><sg>:
     - ܦܵܬܚܝܼܬܹܢ
     ܦܵܬܚ<vblex><pres><p2><pl>:
-    - ܦܵܬܚܼܬܼܢ
+    - ܦܵܬܚܝܼܬܘܼܢ
     ܦܵܬܚ<vblex><pres><p3><f><sg>:
     - ܦܵܬܚܵܢܝܼ
     ܦܵܬܚ<vblex><pres><p3><m><sg>:
-    - ܦܵܬܹܚܢܝܼ
+    - ܦܵܬܚܢܝܼ
     ܦܵܬܚ<vblex><pres><p3><pl>:
     - ܦܵܬܚܝܼܢܝܼ
   Verbs:
