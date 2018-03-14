@@ -17,7 +17,7 @@ Tests:
   Future Prefix:
     ܐܵܬܹܐ<vblex><pres><p3><m><sg><fut>:
     - ܒܹܬܩܵܛܹܠ
-    ܦܵܬ<vblex><pres><p3><m><sg><fut>:
+    ܦܵܬܚ<vblex><pres><p3><m><sg><fut>:
     - ܒܹܬܦܵܬܚ
   Genitive annexation:
     ܒܸܬܵܐ<n><m><sg><gen>:
@@ -33,7 +33,7 @@ Tests:
     - ܟܝܼܐܵܬܹܐ
     ܡܕܡܚ<vblex><pres><p3><m><sg>:
     - ܡܵܕܡܹܚ
-    ܦܵܬ<vblex><pres><p3><m><sg><hab>:
+    ܦܵܬܚ<vblex><pres><p3><m><sg><hab>:
     - ܟܝܼܦܵܬܚ
   L-suffixes:
     ܦܬܹܚ<vblex><past><p1><pl>:
