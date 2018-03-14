@@ -254,6 +254,8 @@ LEXICON VerbRoot
 
 ܦܵܬܚ:ܦܵܬܚ PresentVerbInfl ; ! patx- "to open (present template)"
 ܦܬܹܚ:ܦܬܹܚ PastVerbInfl ; ! ptəx- "to open (past template)"
+ܐܵܬܹܐ:%{A%}◌ܵܬܹ%{A%} PresentVerbInfl; ! atə "to come"
+ܩܵܛܠ:ܩܵܛܠ PresentVerbInfl ; ! katəl "to kill"
 
 LEXICON PronounRoot
 

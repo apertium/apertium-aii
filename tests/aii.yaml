@@ -16,9 +16,11 @@ Tests:
     - ܚܹܪܒܵܐ
   Future Prefix:
     ܐܵܬܹܐ<vblex><pres><p3><m><sg><fut>:
-    - ܒܹܬܩܵܛܹܠ
+    - ܒܹܬܵܬܹܐ
     ܦܵܬܚ<vblex><pres><p3><m><sg><fut>:
     - ܒܹܬܦܵܬܚ
+    ܩܵܛܠ<vblex><pres><p3><m><sg><fut>:
+    - ܒܹܬܩܵܛܠ
   Genitive annexation:
     ܒܸܬܵܐ<n><m><sg><gen>:
     - ܒܸܬܹܬ
