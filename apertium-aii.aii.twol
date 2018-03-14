@@ -24,6 +24,8 @@ Rules
  "{A} realized as alaph when word-final or word-inital"
 %{A%}:ܐ <=> _ .#. ;
             .#. _ ;
+            ܝܼ _ ;
+            ܘܼ _ ;
 
 
 
