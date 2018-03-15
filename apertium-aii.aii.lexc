@@ -250,6 +250,9 @@ LEXICON NounRoot
 ܬܸܢ:ܬܸܢ RegNounInfl ; ! ten- "fig"
 ܫܵܕ:ܫܵܕ RegNounInfl ; ! shad- "almond"
 ܒܸܬ:ܒܸܬ RegNounInfl ; ! bət- "house"
+ܟܵܢܬܘܼܢܬ:ܟܵܢܬܘܼܢܬ RegNounInfl ; ! kantunt- "cat"
+ܝܼܣܵܟܬ:ܝܼܣܵܟܬ RegNounInfl ; ! isakt- "ring"
+ܟܿܡܘܼܪ:ܟܿܡܘܼܪ RegNounInfl ; ! comur- "coal"
 
 LEXICON VerbRoot
 
