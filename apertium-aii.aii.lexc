@@ -249,10 +249,15 @@ LEXICON NounRoot
 ܬܘܼܝܬ:ܬܘܼܝܬ RegNounInfl ; ! tuyt- "mulberry"
 ܬܸܢ:ܬܸܢ RegNounInfl ; ! ten- "fig"
 ܫܵܕ:ܫܵܕ RegNounInfl ; ! shad- "almond"
-ܒܸܬ:ܒܸܬ RegNounInfl ; ! bət- "house"
+ܒܸܬ:ܒܸܬ RegNounInfl ; ! bet- "house"
 ܟܵܢܬܘܼܢܬ:ܟܵܢܬܘܼܢܬ RegNounInfl ; ! kantunt- "cat"
 ܝܼܣܵܟܬ:ܝܼܣܵܟܬ RegNounInfl ; ! isakt- "ring"
 ܟܿܡܘܼܪ:ܟܿܡܘܼܪ RegNounInfl ; ! comur- "coal"
+ܒܵܒ:ܒܵܒ RegNounInfl ; ! bab- "father"
+ܒܸܪܟ:ܒܸܪܟ RegNounInfl ; ! berc- "knee"
+ܒܝܼܬ:ܒܝܼܬ RegNounInfl ; ! bit- "egg"
+ܙܵܡܵܪ:ܙܵܡܵܪ  RegNounInfl ; zamar- "singer"
+ܡܵܬ:ܡܵܬ RegNounInfl ; mat- "village"
 
 LEXICON VerbRoot
 
