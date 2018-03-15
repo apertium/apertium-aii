@@ -256,8 +256,8 @@ LEXICON NounRoot
 ܒܵܒ:ܒܵܒ RegNounInfl ; ! bab- "father"
 ܒܸܪܟ:ܒܸܪܟ RegNounInfl ; ! berc- "knee"
 ܒܝܼܬ:ܒܝܼܬ RegNounInfl ; ! bit- "egg"
-ܙܵܡܵܪ:ܙܵܡܵܪ  RegNounInfl ; zamar- "singer"
-ܡܵܬ:ܡܵܬ RegNounInfl ; mat- "village"
+ܙܵܡܵܪ:ܙܵܡܵܪ  RegNounInfl ; ! zamar- "singer"
+ܡܵܬ:ܡܵܬ RegNounInfl ; ! mat- "village"
 
 LEXICON VerbRoot
 
