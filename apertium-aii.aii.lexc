@@ -84,11 +84,16 @@ PronounRoot ;
 AdverbRoot ;
 AdjectiveRoot ;
 Punctuation ;
+Preposition ;
 
 LEXICON Prefix
 
 VerbPrefix ;
 PronounPrefix ;
+
+LEXICON Preposition;
+
+%<pr%>: # ;
 
 LEXICON VerbPrefix
 
@@ -319,6 +324,10 @@ LEXICON Punctuation
 %܀%<epar%>:%܀ # ; ! special Syriac paragraph ending symbol
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
+
+LEXICON Preposition
+
+ܠܹܗ:ܠܹܗ Preposition ; ! leh object marker
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
