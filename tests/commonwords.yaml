@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../aii.autogen.hfst
+    Morph: ../aii.automorf.hfst
+Tests:
+  ܠܹܗ<unk>:
+  - ܠܹܗ
+  ܕ<unk>:
+  - ܕ
+  ܘ<unk>:
+  - ܘ
+  ܐ<unk>:
+  - ܐ
+  ܚܕ<unk>:
+  - ܚܕ
+  ܡ<unk>:
+  - ܡ
+  ܒ<unk>:
+  - ܒ
+  ܪ<unk>:
+  - ܪ
+  ܡܘܼܠܸܕ<unk>:
+  - ܡܘܼܠܸܕ
+  ܠ<unk>:
+  - ܠ
+  ܢ<unk>:
+  - ܢ
+  ܡܢ<unk>:
+  - ܡܢ
+  ܟܠ<unk>:
+  - ܟܠ
+  ܝܢ<unk>:
+  - ܝܢ
+  ܝ<unk>:
+  - ܝ
+  ܗܩܘܬܐ<unk>:
+  - ܗܩܘܬܐ
+  ܠܐ<unk>:
+  - ܠܐ
+  ܐܝܬܠܗ<unk>:
+  - ܐܝܬܠܗ
+  ܗ<unk>:
+  - ܗ
+  ܵܐ<unk>:
+  - ܵܐ
