@@ -5,7 +5,7 @@ Config:
     Morph: ../aii.automorf.hfst
 Tests:
   Common Words:
-    ܠܹܗ<unk>:
+    ܠܹܗ<pr>:
     - ܠܹܗ
     ܕ<unk>:
     - ܕ
