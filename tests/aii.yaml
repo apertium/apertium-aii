@@ -130,6 +130,9 @@ Tests:
     ܕܠܵܐ<pr><gen><p3><f><sg>:
     - ܕܠܵܐ ܕܝܼܝܝܿܐ
   Pronouns: {}
+  'S-suffixes: Default Form':
+    ܦܵܬܚ<vblex><pres><p1><f><sg>:
+    - ܦܵܬܚܵܢ
   'S-suffixes: Long Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
     - ܦܵܬܚܵܢܵܐ
