@@ -83,17 +83,13 @@ NounRoot ;
 PronounRoot ;
 AdverbRoot ;
 AdjectiveRoot ;
+PrepositionRoot ;
 Punctuation ;
-Preposition ;
 
 LEXICON Prefix
 
 VerbPrefix ;
 PronounPrefix ;
-
-LEXICON Preposition
-
-%<pr%>: # ;
 
 LEXICON VerbPrefix
 
@@ -200,44 +196,61 @@ LEXICON PastVerbInfl-Suffix
 %<p1%>%<pl%>:ܠܵܢ # ;
 
 LEXICON PronounInfl-SgMNear
+
 %<prn%>%<sg%>%<m%>%<near%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-PlNear
+
 %<prn%>%<pl%>%<near%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMMed
+
 %<prn%>%<sg%>%<m%>%<med%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgFMed
+
 %<prn%>%<sg%>%<f%>%<med%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMFar
+
 %<prn%>%<sg%>%<m%>%<far%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgFFar
+
 %<prn%>%<sg%>%<f%>%<far%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-PlFar
+
 %<prn%>%<pl%>%<far%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMDef
+
 %<prn%>%<sg%>%<m%>%<def%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgFDef
+
 %<prn%>%<sg%>%<f%>%<def%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-PlDef
+
 %<prn%>%<pl%>%<def%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-Prefix
+
 %<obl%>%[%+obl%]: # ;
 : # ;
 
 LEXICON AdverbInfl
+
 %<adv%>: # ;
 
 LEXICON AdjectiveInfl
+
 %<adj%>: # ;
+
+LEXICON PrepositionInfl
+
+%<pr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -299,8 +312,6 @@ LEXICON AdjectiveRoot
 
 LEXICON Punctuation
 
-! still need to add these to multichar symbols
-
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
 ...%<sent%>:... # ;
@@ -325,9 +336,9 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 
-LEXICON Preposition
+LEXICON PrepositionRoot
 
-ܠܹܗ:ܠܹܗ Preposition ; ! leh object marker
+ܠܹܗ:ܠܹܗ PrepositionInfl ; ! leh object marker
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
