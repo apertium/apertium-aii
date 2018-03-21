@@ -133,6 +133,22 @@ Tests:
   'S-suffixes: Default Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
     - ܦܵܬܚܵܢ
+    ܦܵܬܚ<vblex><pres><p1><m><sg>:
+    - ܦܵܬܚܹܢ
+    ܦܵܬܚ<vblex><pres><p1><pl>:
+    - ܦܵܬܚܵܚ
+    ܦܵܬܚ<vblex><pres><p2><f><sg>:
+    - ܦܵܬܚܵܐ
+    ܦܵܬܚ<vblex><pres><p2><m><sg>:
+    - ܦܵܬܚܹܬ
+    ܦܵܬܚ<vblex><pres><p2><pl>:
+    - ܦܵܬܚܝܼܬܘܼܢ
+    ܦܵܬܚ<vblex><pres><p3><f><sg>:
+    - ܦܵܬܚܵܐ
+    ܦܵܬܚ<vblex><pres><p3><m><sg>:
+    - ܦܵܬܚ
+    ܦܵܬܚ<vblex><pres><p3><pl>:
+    - ܦܵܬܚܝܼ
   'S-suffixes: Long Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
     - ܦܵܬܚܵܢܵܐ
