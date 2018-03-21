@@ -108,7 +108,7 @@ LEXICON NounInfl-Number
 
 %<sg%>:◌ܵ%{A%} NounInfl-Case ;
 
-%<sg%>: NounInfl-Case;
+! %<sg%>: NounInfl-Case;
 
 %<pl%>:◌ܹ%{A%} NounInfl-Case ;
 
