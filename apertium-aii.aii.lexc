@@ -252,7 +252,17 @@ LEXICON AdjectiveInfl
 
 LEXICON PrepositionInfl
 
-%<pr%>: # ;
+%<pr%>: PrepositionInfl-Attachments ;
+
+LEXICON PrepositionInfl-Attachments
+
+: # ;
+%<enc%>:◌ܹܬ # ;
+%<gen%>:ܕܝܼܝܝ PrepositionInfl-Genitive ;
+
+LEXICON PrepositionInfl-Genitive
+
+%<p3%>%<f%>%<sg%>:◌ܿܐ # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -341,6 +351,9 @@ LEXICON Punctuation
 LEXICON PrepositionRoot
 
 ܠܹܗ:ܠܹܗ PrepositionInfl ; ! leh object marker
+ܐܹܠܬܹܚ:ܐܹܠܬܹܚ PrepositionInfl ; ! eltex 'underneath' (I don't feel like typing the schwas)
+ܘܼܠܠܘܼܠ:ܘܼܠܠܘܼܠ PrepositionInfl ; ! ullul 'above'
+ܕܠܵܐ:ܕܠܵܐ PrepositionInfl ; ! d-la 'without'
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
