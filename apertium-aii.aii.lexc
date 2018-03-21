@@ -91,7 +91,7 @@ LEXICON Prefix
 VerbPrefix ;
 PronounPrefix ;
 
-LEXICON Preposition;
+LEXICON Preposition
 
 %<pr%>: # ;
 
