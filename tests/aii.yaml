@@ -132,7 +132,7 @@ Tests:
   Pronouns: {}
   'S-suffixes: Default Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
-    - ܦܵܬܚܵܢ
+    - {ܦܵܬܚܵܢ, ܦܵܬܚܵܢܵܐ}
     ܦܵܬܚ<vblex><pres><p1><m><sg>:
     - ܦܵܬܚܹܢ
     ܦܵܬܚ<vblex><pres><p1><pl>:
