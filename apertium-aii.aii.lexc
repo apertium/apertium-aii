@@ -106,15 +106,17 @@ LEXICON RegNounInfl
 
 LEXICON NounInfl-Number
 
-%<sg%>:◌ܵ%{A%} NounInfl-Case ;
+%<sg%>:◌ܵ%{A%} NounInfl-CaseNom ;
 
-! %<sg%>: NounInfl-Case;
+%<sg%>: NounInfl-CaseGen;
 
-%<pl%>:◌ܹ%{A%} NounInfl-Case ;
+%<pl%>:◌ܹ%{A%} NounInfl-CaseNom ;
 
-LEXICON NounInfl-Case
+LEXICON NounInfl-CaseNom
 
 %<nom%>: # ;
+
+LEXICON NounInfl-CaseGen
 
 %<gen%>:◌ܹܬ # ;
 
