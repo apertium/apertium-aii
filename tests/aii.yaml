@@ -128,7 +128,7 @@ Tests:
     ܐܹܠܬܹܚ<pr><enc>:
     - ܐܹܠܬܹܚܹܬ
     ܕܠܵܐ<pr><gen><p3><f><sg>:
-    - ܕܠܵܐ ܕܝܼܝܝܿܐ
+    - ܕܠܵܐܕܝܼܝܝܿܐ
   Pronouns: {}
   'S-suffixes: Default Form':
     ܦܵܬܚ<vblex><pres><p1><f><sg>:
@@ -149,25 +149,6 @@ Tests:
     - ܦܵܬܚ
     ܦܵܬܚ<vblex><pres><p3><pl>:
     - ܦܵܬܚܝܼ
-  'S-suffixes: Long Form':
-    ܦܵܬܚ<vblex><pres><p1><f><sg>:
-    - ܦܵܬܚܵܢܵܐ
-    ܦܵܬܚ<vblex><pres><p1><m><sg>:
-    - ܦܵܬܚܝܼܢܵܐ
-    ܦܵܬܚ<vblex><pres><p1><pl>:
-    - ܦܵܬܚܵܚܹܢ
-    ܦܵܬܚ<vblex><pres><p2><f><sg>:
-    - ܦܵܬܚܵܬܹܢ
-    ܦܵܬܚ<vblex><pres><p2><m><sg>:
-    - ܦܵܬܚܝܼܬܹܢ
-    ܦܵܬܚ<vblex><pres><p2><pl>:
-    - ܦܵܬܚܝܼܬܘܼܢ
-    ܦܵܬܚ<vblex><pres><p3><f><sg>:
-    - ܦܵܬܚܵܢܝܼ
-    ܦܵܬܚ<vblex><pres><p3><m><sg>:
-    - ܦܵܬܚܢܝܼ
-    ܦܵܬܚ<vblex><pres><p3><pl>:
-    - ܦܵܬܚܝܼܢܝܼ
   Verbs:
     ܒܫܠ<vblex><pres><p3><m><sg>:
     - ܒܵܫܹܠ
