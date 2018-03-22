@@ -258,7 +258,7 @@ LEXICON PrepositionInfl-Attachments
 
 : # ;
 %<enc%>:◌ܹܬ # ;
-%<gen%>:ܕܝܼܝܝ PrepositionInfl-Genitive ;
+%<gen%>: ܕܝܼܝܝ PrepositionInfl-Genitive ;
 
 LEXICON PrepositionInfl-Genitive
 
