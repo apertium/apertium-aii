@@ -126,7 +126,7 @@ LEXICON TNounInfl-Number
 
 %<sg%>: NounInfl-CaseGen;
 
-%<pl%>:ܬܹܐ NounInfl-CaseNom ;
+%<pl%>:◌ܵܬܹܐ NounInfl-CaseNom ;
 
 LEXICON NounInfl-Number
 
