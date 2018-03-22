@@ -104,6 +104,18 @@ LEXICON RegNounInfl
 
 %<n%>: NounInfl-Number ;
 
+LEXICON VatNounInfl
+
+%<n%>: VatNounInfl-Number ;
+
+LEXICON VatNounInfl-Number
+
+%<sg%>:◌ܵ%{A%} NounInfl-CaseNom ;
+
+%<sg%>: NounInfl-CaseGen;
+
+%<pl%>:ܒܵܬܹܐ NounInfl-CaseNom ;
+
 LEXICON NounInfl-Number
 
 %<sg%>:◌ܵ%{A%} NounInfl-CaseNom ;
@@ -279,7 +291,7 @@ LEXICON NounRoot
 ܬܘܼܝܬ:ܬܘܼܝܬ RegNounInfl ; ! tuyt- "mulberry"
 ܬܸܢ:ܬܸܢ RegNounInfl ; ! ten- "fig"
 ܫܵܕ:ܫܵܕ RegNounInfl ; ! shad- "almond"
-ܒܸܬ:ܒܸܬ RegNounInfl ; ! bet- "house"
+ܒܸܬ:ܒܸܬ VatNounInfl ; ! bet- "house"
 ܟܵܢܬܘܼܢܬ:ܟܵܢܬܘܼܢܬ RegNounInfl ; ! kantunt- "cat"
 ܝܼܣܵܟܬ:ܝܼܣܵܟܬ RegNounInfl ; ! isakt- "ring"
 ܟܿܡܘܼܪ:ܟܿܡܘܼܪ RegNounInfl ; ! comur- "coal"
@@ -289,6 +301,7 @@ LEXICON NounRoot
 ܙܵܡܵܪ:ܙܵܡܵܪ  RegNounInfl ; ! zamar- "singer"
 ܡܵܬ:ܡܵܬ RegNounInfl ; ! mat- "village"
 ܚܕ:ܚܕ RegNounInfl ; ! 'had- "a, an, one"
+ܣܵܒܘܼܢ:ܣܵܒܘܼܢ VatNounInfl ; ! savun- "grandfather"
 
 LEXICON VerbRoot
 
