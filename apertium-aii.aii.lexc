@@ -116,6 +116,18 @@ LEXICON VatNounInfl-Number
 
 %<pl%>:ܒܵܬܹܐ NounInfl-CaseNom ;
 
+LEXICON TNounInfl
+
+%<n%>: TNounInfl-Number ;
+
+LEXICON TNounInfl-Number
+
+%<sg%>:◌ܵ%{A%} NounInfl-CaseNom ;
+
+%<sg%>: NounInfl-CaseGen;
+
+%<pl%>:ܬܹܐ NounInfl-CaseNom ;
+
 LEXICON NounInfl-Number
 
 %<sg%>:◌ܵ%{A%} NounInfl-CaseNom ;
@@ -302,6 +314,7 @@ LEXICON NounRoot
 ܡܵܬ:ܡܵܬ RegNounInfl ; ! mat- "village"
 ܚܕ:ܚܕ RegNounInfl ; ! 'had- "a, an, one"
 ܣܵܒܘܼܢ:ܣܵܒܘܼܢ VatNounInfl ; ! savun- "grandfather"
+ܟܝܼܣ:ܟܝܼܣ TNounInfl ; ! cis "belly"
 
 LEXICON VerbRoot
 
