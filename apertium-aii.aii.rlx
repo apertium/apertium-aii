@@ -10,8 +10,8 @@ LIST Noun = n;
 
 SECTION
 # If there is a  noun to the right or left, I cannot be an independent pronoun.
-REMOVE Independent IF (-1 Noun) ;
-REMOVE Independent IF (1 Noun) ;
+REMOVE Independent IF -1 Noun ;
+REMOVE Independent IF 1 Noun ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
