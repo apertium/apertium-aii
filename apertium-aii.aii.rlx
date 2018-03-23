@@ -4,10 +4,10 @@ DELIMITERS = "<.>" ;
 SETS
 
 # We can define sets for common tag clusters
-LIST Indicative = ind
-LIST Attributive = atr
-LIST Noun = n
-LIST Verb = vblex
+LIST Indicative = ind;
+LIST Attributive = atr;
+LIST Noun = n;
+LIST Verb = vblex;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
