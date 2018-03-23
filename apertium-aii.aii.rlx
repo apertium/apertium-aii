@@ -10,9 +10,10 @@ LIST Noun = (n sg nom) (n pl nom) ;
 LIST Adjective = adj ;
 
 SECTION
+
 # If there is a  noun to the right or left, I cannot be an independent pronoun.
-REMOVE Independent IF (1 Noun) OR (1 Adjective) ;
-REMOVE Attributive IF (NOT 1 Noun) OR (NOT 1 Adjective) ;
+REMOVE Independent IF (1 Noun OR Adjective) ;
+REMOVE Attributive IF (NOT 1 Noun OR Adjective) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
