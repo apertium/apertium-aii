@@ -4,9 +4,9 @@ DELIMITERS = "<.>" ;
 SETS
 
 # We can define sets for common tag clusters
-LIST Independent = ind;
-LIST Attributive = atr;
-LIST Noun = n;
+LIST Independent = ind ;
+LIST Attributive = atr ;
+LIST Noun = n ;
 
 SECTION
 # If there is a  noun to the right or left, I cannot be an independent pronoun.
