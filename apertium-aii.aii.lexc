@@ -56,6 +56,8 @@ Multichar_Symbols
 
 ! Pronoun morphology
 %<obl%> ! Oblique
+%<ind%> ! Independent
+%<atr%> ! Attributive
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -223,31 +225,38 @@ LEXICON PastVerbInfl-Suffix
 
 LEXICON PronounInfl-SgMNear
 
-%<prn%>%<sg%>%<m%>%<near%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<near%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<near%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-PlNear
 
-%<prn%>%<pl%>%<near%>: PronounInfl-Prefix ;
+%<prn%>%<pl%>%<near%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<pl%>%<near%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMMed
 
-%<prn%>%<sg%>%<m%>%<med%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<med%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<med%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgFMed
 
-%<prn%>%<sg%>%<f%>%<med%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<f%>%<med%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<f%>%<med%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMFar
 
-%<prn%>%<sg%>%<m%>%<far%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<far%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<m%>%<far%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgFFar
 
-%<prn%>%<sg%>%<f%>%<far%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<f%>%<far%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<sg%>%<f%>%<far%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-PlFar
 
-%<prn%>%<pl%>%<far%>: PronounInfl-Prefix ;
+%<prn%>%<pl%>%<far%>%<ind%>: PronounInfl-Prefix ;
+%<prn%>%<pl%>%<far%>%<atr%>: PronounInfl-Prefix ;
 
 LEXICON PronounInfl-SgMDef
 
