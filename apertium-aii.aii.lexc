@@ -353,8 +353,8 @@ LEXICON AdverbRoot
 ܚܹܪܒܵܐ:ܚܹܪܒܵܐ AdverbInfl ; ! xərba 'badly'
 
 LEXICON AdjectiveRoot
-ܚܵܬܹܐ:ܚܵܬܹܐ AdjectiveInfl ; 'unlucky'
-ܫܵܚܝܼܢܵܐ:ܫܵܚܝܼܢܵܐ AdjectiveInfl ; 'hot'
+ܚܵܬܹܐ:ܚܵܬܹܐ AdjectiveInfl ; ! 'unlucky'
+ܫܵܚܝܼܢܵܐ:ܫܵܚܝܼܢܵܐ AdjectiveInfl ; ! 'hot'
 ܟܠ:ܟܠ AdjectiveInfl ; ! had 'any, all'
 
 LEXICON Punctuation
