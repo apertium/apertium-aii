@@ -333,6 +333,7 @@ LEXICON PronounRoot
 ܐܵܝܝܵܐ:%{A%}◌ܵܝܝܵ%{A%} PronounInfl-SgFMed ;
 ܐܵܒܒܿܐ:%{A%}◌ܵܒܒܿ%{A%} PronounInfl-SgMFar ;
 ܐܵܝܝܸܐ:%{A%}◌ܵܝܝܸ%{A%} PronounInfl-SgFFar ;
+ܐܢܢܥܼ: ܐܢܢܥܼ ProunounInfl-PlFar ;
 ܐܵܒܒܝܼ:%{A%}◌ܵܒܒܝܼ%{A%} PronounInfl-PlFar ;
 ܐܵܒܘܼܢ:%{A%}◌ܵܒܘܼܢ PronounInfl-SgMDef ;
 ܐܵܝܹܢ:%{A%}◌ܵܝܹܢ PronounInfl-SgFDef ;
