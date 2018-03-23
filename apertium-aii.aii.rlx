@@ -5,7 +5,7 @@ SETS
 
 # We can define sets for common tag clusters
 LIST Independent = (prn sg m near ind) (prn pl near ind) (prn sg m med ind) (prn sg f med ind) (prn sg m far ind) (prn sg f far ind) (prn pl far ind) ;
-LIST Noun = n ;
+LIST Noun = (n sg nom) ;
 
 SECTION
 # If there is a  noun to the right or left, I cannot be an independent pronoun.
