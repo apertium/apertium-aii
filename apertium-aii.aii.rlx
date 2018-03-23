@@ -4,14 +4,14 @@ DELIMITERS = "<.>" ;
 SETS
 
 # We can define sets for common tag clusters
-LIST Indicative = ind;
+LIST Independent = ind;
 LIST Attributive = atr;
 LIST Noun = n;
-LIST Verb = vblex;
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE Indicative IF (-1 Noun) ;
+# If there is a  noun to the right or left, I cannot be an independent pronoun.
+REMOVE Independent IF (-1 Noun) ;
+REMOVE Independent IF (1 Noun) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
