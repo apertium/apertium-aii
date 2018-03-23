@@ -5,11 +5,13 @@ SETS
 
 # We can define sets for common tag clusters
 LIST Independent = (prn sg m near ind) (prn pl near ind) (prn sg m med ind) (prn sg f med ind) (prn sg m far ind) (prn sg f far ind) (prn pl far ind) ;
-LIST Noun = (n sg nom) ;
+LIST Attributive = (prn sg m near atr) (prn pl near atr) (prn sg m med atr) (prn sg f med atr) (prn sg m far atr) (prn sg f far atr) (prn pl far atr) ;
+LIST Noun = (n sg nom) (n pl nom) ;
 
 SECTION
 # If there is a  noun to the right or left, I cannot be an independent pronoun.
 REMOVE Independent IF (1 Noun) ;
+SELECT Attributive IF (1 Noun) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
