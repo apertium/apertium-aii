@@ -11,7 +11,7 @@ LIST Verb = vblex;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE Indicative IF (1 Noun) ;
+REMOVE Indicative IF (-1 Noun) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
